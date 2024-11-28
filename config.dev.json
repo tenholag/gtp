@@ -1,5 +1,10 @@
 import os
 
+# Acessando as variáveis de ambiente configuradas no Railway
 discord_token = os.getenv("DISCORD_TOKEN")
 openai_api_key = os.getenv("OPENAI_API_KEY")
+openai_model = os.getenv("OPENAI_MODEL_ENGINE", "gpt-3.5-turbo")  # "gpt-3.5-turbo" é o valor padrão, caso não esteja configurado
 
+# Exemplo de como usar essas variáveis
+print(f"Discord Token: {discord_token}")
+print(f"OpenAI API Key: {openai_api_key}")
