@@ -1,7 +1,5 @@
-{
-    import os
+import os
 
 discord_token = os.getenv("DISCORD_TOKEN")
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
-}
