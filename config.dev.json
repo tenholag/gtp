@@ -1,5 +1,7 @@
 {
-    "discord_bot_token":"",
-    "discord_channel_id":"",
-    "openAI_key": ""
+    import os
+
+discord_token = os.getenv("DISCORD_TOKEN")
+openai_api_key = os.getenv("OPENAI_API_KEY")
+
 }
